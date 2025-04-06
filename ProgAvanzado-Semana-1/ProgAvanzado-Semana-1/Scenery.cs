@@ -30,7 +30,7 @@ namespace ProgAvanzado_Semana_1
                 return "Esa opción no existe...";
         }
 
-        public string[] ObtenerOpciones()
+        public string[] GetOptions()
         {
             string[] options = new string[decisions.Count];
             decisions.Keys.CopyTo(options, 0);
